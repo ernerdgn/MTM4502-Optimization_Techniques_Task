@@ -5,10 +5,11 @@ function plot_algorithm_path()
          4, 1, 8, 6, 7];
     c = [0.1; 0.2; 0.2; 0.4; 0.4];
 
-    lower_bound = 3.9;
-    upper_bound = 4.1;
-
-    x0 = lower_bound + (upper_bound - lower_bound) * rand(4, 1);
+    % lower_bound = 0;
+    % upper_bound = 10;
+    % x0 = lower_bound + (upper_bound - lower_bound) * rand(4, 1);
+    % x0 = [3.954450; 4.041713; 3.947645; 4.043338];
+    % x0 = [3.950592; 4.064731; 4.045430; 4.014870];
     x0 = [4.057161; 4.036067; 3.940584; 4.058438];
 
     %[x_nr, path_nr] = newton_raphson(x0,a,c);
