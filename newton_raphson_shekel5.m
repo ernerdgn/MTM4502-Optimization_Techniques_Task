@@ -9,8 +9,8 @@ function newton_raphson_shekel5()
     %x0 = [3.99;3.99;3.99;3.99];
     %x0 = [3.95;3.94;3.94;3.94];
     %x0 = [4.05;4.07;4.05;4.06];
-    lower_bound = 3.9;
-    upper_bound = 4.1;
+    lower_bound = 0;
+    upper_bound = 10;
 
     x0 = lower_bound + (upper_bound - lower_bound) * rand(4, 1);
 
