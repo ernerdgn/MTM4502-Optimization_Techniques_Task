@@ -14,4 +14,4 @@ All algorithms works with three randomly generated initial x vectors, the graphs
 2) x0 = [3.950592; 4.064731; 4.045430; 4.014870]
 3) x0 = [4.057161; 4.036067; 3.940584; 4.058438]
 
-You can find more about the Shekel 5 problem (here)[https://arxiv.org/pdf/1308.4008.pdf].
+You can find more about the Shekel 5 problem [here](https://arxiv.org/pdf/1308.4008.pdf).
