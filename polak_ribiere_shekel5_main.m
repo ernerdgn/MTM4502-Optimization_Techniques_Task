@@ -5,8 +5,8 @@ function polak_ribiere_shekel5_main()
          4, 1, 8, 6, 7];
     c = [0.1; 0.2; 0.2; 0.4; 0.4];
 
-    lower_bound = 2;
-    upper_bound = 7;
+    lower_bound = 0;
+    upper_bound = 10;
 
     x0 = lower_bound + (upper_bound - lower_bound) * rand(4, 1);
 
